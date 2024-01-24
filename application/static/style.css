@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('https://assets-global.website-files.com/627badd0d06f4dfa4f929764/63c85ce47a46201c2b2f157c_biochemistry-doctor-analyzing-vacutainer-with-bloo-2022-07-21-07-26-27-utc%20(1)%20(1)-poster-00001.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    font-size: 16px;
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#searchResultContainer{
+    background-color:hsla(120,60%,70%,0.3);
+    
+}
+
+/* Font Awesome icons (optional) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");

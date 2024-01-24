@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looking UI with Search Bar</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" >
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">Competitive Analysis For Medical Products</h1>
+            <nav>
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search for...">
+                <button type="button" onclick="search()"><i class="fas fa-search">Search</i></button>
+            </div>
+        </main>
+        <p id="searchResult">Search result will be displayed here.</p>
+        <p id="genericResult">Generic Search result will be displayed here.</p>
+        <p id="brandResult">Brand result based on fetched generic name will be displayed here.</p>
+        <div id="output" style="background-color:hsla(120,60%,70%,0.3)"></div> 
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</body>
+</html>
